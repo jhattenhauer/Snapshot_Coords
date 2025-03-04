@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'NavLogger'
+package_name = 'Snapshot_Coords'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'logger_node = NavLogger.logger_node:main'
+            'logger_node = Snapshot_Coords.logger_node:main'
         ],
     },
 )
