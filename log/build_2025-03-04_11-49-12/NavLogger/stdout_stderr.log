@@ -1,0 +1,24 @@
+running egg_info
+writing build/NavLogger/Snapshot_Coords.egg-info/PKG-INFO
+writing dependency_links to build/NavLogger/Snapshot_Coords.egg-info/dependency_links.txt
+writing entry points to build/NavLogger/Snapshot_Coords.egg-info/entry_points.txt
+writing requirements to build/NavLogger/Snapshot_Coords.egg-info/requires.txt
+writing top-level names to build/NavLogger/Snapshot_Coords.egg-info/top_level.txt
+reading manifest file 'build/NavLogger/Snapshot_Coords.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/NavLogger/Snapshot_Coords.egg-info/SOURCES.txt'
+running build
+running build_py
+copying src/logger_node.py -> /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src
+copying src/__init__.py -> /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src
+running install
+running install_lib
+running install_data
+copying resource/Snapshot_Coords -> /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/share/ament_index/resource_index/packages
+creating /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/share/Snapshot_Coords
+copying package.xml -> /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/share/Snapshot_Coords
+running install_egg_info
+Copying build/NavLogger/Snapshot_Coords.egg-info to /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/Snapshot_Coords-0.0.0-py3.10.egg-info
+running install_scripts
+Installing logger_node script to /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/Snapshot_Coords
+writing list of installed files to '/home/james/Documents/dev/Snapshot_Coords/build/NavLogger/install.log'

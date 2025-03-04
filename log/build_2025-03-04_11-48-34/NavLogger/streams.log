@@ -1,0 +1,27 @@
+[1.131s] Invoking command in '/home/james/Documents/dev/Snapshot_Coords': PYTHONPATH=/home/james/Documents/dev/Snapshot_Coords/build/NavLogger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/NavLogger build --build-base /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build install --record /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/install.log --single-version-externally-managed install_data
+[1.464s] running egg_info
+[1.465s] creating build/NavLogger/Snapshot_Coords.egg-info
+[1.488s] writing build/NavLogger/Snapshot_Coords.egg-info/PKG-INFO
+[1.488s] writing dependency_links to build/NavLogger/Snapshot_Coords.egg-info/dependency_links.txt
+[1.488s] writing entry points to build/NavLogger/Snapshot_Coords.egg-info/entry_points.txt
+[1.489s] writing requirements to build/NavLogger/Snapshot_Coords.egg-info/requires.txt
+[1.489s] writing top-level names to build/NavLogger/Snapshot_Coords.egg-info/top_level.txt
+[1.489s] writing manifest file 'build/NavLogger/Snapshot_Coords.egg-info/SOURCES.txt'
+[1.540s] reading manifest file 'build/NavLogger/Snapshot_Coords.egg-info/SOURCES.txt'
+[1.540s] adding license file 'LICENSE'
+[1.541s] writing manifest file 'build/NavLogger/Snapshot_Coords.egg-info/SOURCES.txt'
+[1.541s] running build
+[1.541s] running build_py
+[1.541s] creating /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src
+[1.541s] copying src/logger_node.py -> /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src
+[1.541s] copying src/__init__.py -> /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src
+[1.542s] running install
+[1.548s] running install_lib
+[1.573s] creating /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/src
+[1.573s] copying /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src/logger_node.py -> /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/src
+[1.573s] copying /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build/lib/src/__init__.py -> /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/src
+[1.573s] byte-compiling /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/src/logger_node.py to logger_node.cpython-310.pyc
+[1.574s] byte-compiling /home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages/src/__init__.py to __init__.cpython-310.pyc
+[1.574s] running install_data
+[1.575s] error: can't copy 'resource/Snapshot_Coords': doesn't exist or not a regular file
+[1.594s] Invoked command in '/home/james/Documents/dev/Snapshot_Coords' returned '1': PYTHONPATH=/home/james/Documents/dev/Snapshot_Coords/build/NavLogger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Documents/dev/Snapshot_Coords/install/NavLogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/NavLogger build --build-base /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/build install --record /home/james/Documents/dev/Snapshot_Coords/build/NavLogger/install.log --single-version-externally-managed install_data
