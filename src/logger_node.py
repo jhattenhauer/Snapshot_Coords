@@ -3,11 +3,10 @@ from rclpy.node import Node
 from sensor_msgs.msg import NavSatFix
 from mavros_msgs.msg import State
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy
-import os
-import time
+import csv
 
-file_path = '/home/james/Documents/dev/Snapshot_Coords/landmarks.csv'
-file = open(file_path, 'a')
+
+file =  open('/home/james/Documents/dev/Snapshot_Coords/landmarks.csv', 'a', newline='')
 
 class logger(Node):
     def __init__(self):
@@ -29,8 +28,9 @@ class logger(Node):
     def listener_callback(self, global_msg):   
         input("Hit Enter to Capture Point")
         try:        
-            message = [{global_msg.latitude}, {global_msg.longitude}]            
-            file.write(message)
+            message = [round(global_msg.latitude, 6), round(global_msg.longitude, 6)]            
+            writer = csv.writer(file)
+            writer.writerow(message)
             print(message)
         except:
             print("An Error Occured")
