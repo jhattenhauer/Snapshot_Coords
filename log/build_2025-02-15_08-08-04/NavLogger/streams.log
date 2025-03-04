@@ -1,0 +1,28 @@
+[1.308s] Invoking command in '/home/james/Documents/dev/NavLogger': PYTHONPATH=/home/james/Documents/dev/NavLogger/build/NavLogger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/NavLogger build --build-base /home/james/Documents/dev/NavLogger/build/NavLogger/build install --record /home/james/Documents/dev/NavLogger/build/NavLogger/install.log --single-version-externally-managed install_data
+[1.650s] running egg_info
+[1.676s] writing build/NavLogger/NavLogger.egg-info/PKG-INFO
+[1.676s] writing dependency_links to build/NavLogger/NavLogger.egg-info/dependency_links.txt
+[1.677s] writing entry points to build/NavLogger/NavLogger.egg-info/entry_points.txt
+[1.677s] writing requirements to build/NavLogger/NavLogger.egg-info/requires.txt
+[1.677s] writing top-level names to build/NavLogger/NavLogger.egg-info/top_level.txt
+[1.729s] reading manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'
+[1.729s] adding license file 'LICENSE'
+[1.730s] writing manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'
+[1.731s] running build
+[1.731s] running build_py
+[1.731s] copying NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger
+[1.731s] copying NavLogger/__init__.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger
+[1.732s] running install
+[1.737s] running install_lib
+[1.764s] copying /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger
+[1.765s] byte-compiling /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger/logger_node.py to logger_node.cpython-310.pyc
+[1.766s] running install_data
+[1.766s] copying resource/NavLogger -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index/packages
+[1.766s] copying package.xml -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/NavLogger
+[1.766s] running install_egg_info
+[1.794s] removing '/home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger-0.0.0-py3.10.egg-info' (and everything under it)
+[1.794s] Copying build/NavLogger/NavLogger.egg-info to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger-0.0.0-py3.10.egg-info
+[1.796s] running install_scripts
+[2.031s] Installing logger_node script to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/NavLogger
+[2.031s] writing list of installed files to '/home/james/Documents/dev/NavLogger/build/NavLogger/install.log'
+[2.062s] Invoked command in '/home/james/Documents/dev/NavLogger' returned '0': PYTHONPATH=/home/james/Documents/dev/NavLogger/build/NavLogger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/NavLogger build --build-base /home/james/Documents/dev/NavLogger/build/NavLogger/build install --record /home/james/Documents/dev/NavLogger/build/NavLogger/install.log --single-version-externally-managed install_data

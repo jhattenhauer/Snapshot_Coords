@@ -1,0 +1,61 @@
+[0.000000] (-) TimerEvent: {}
+[0.000742] (NavLogger) JobQueued: {'identifier': 'NavLogger', 'dependencies': OrderedDict()}
+[0.000786] (NavLogger) JobStarted: {'identifier': 'NavLogger'}
+[0.099737] (-) TimerEvent: {}
+[0.199970] (-) TimerEvent: {}
+[0.300192] (-) TimerEvent: {}
+[0.400422] (-) TimerEvent: {}
+[0.500701] (-) TimerEvent: {}
+[0.600983] (-) TimerEvent: {}
+[0.701264] (-) TimerEvent: {}
+[0.801553] (-) TimerEvent: {}
+[0.901802] (-) TimerEvent: {}
+[1.002081] (-) TimerEvent: {}
+[1.080310] (NavLogger) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/NavLogger', 'build', '--build-base', '/home/james/Documents/dev/NavLogger/build/NavLogger/build', 'install', '--record', '/home/james/Documents/dev/NavLogger/build/NavLogger/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/james/Documents/dev/NavLogger', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'james', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/james', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/james/Documents', 'TERM_PROGRAM_VERSION': '1.97.0', 'DESKTOP_SESSION': 'pop', 'DEBUGPY_ADAPTER_ENDPOINTS': '/home/james/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-c187bb438e3b9581.txt', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'pop', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2175', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2362', 'BUNDLED_DEBUGPY_PATH': '/home/james/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'LIBVIRT_DEFAULT_URI': 'qemu:///system', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3264', 'COLCON_PREFIX_PATH': '/home/james/Documents/dev/NavLogger/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'james', 'JOURNAL_STREAM': '9:9820', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'james', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/james/ros2_ws/src/ardupilot/Tools/autotest:/usr/lib/ccache:/home/james/Iceberg/ros2_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/opt/ros/humble/bin:/home/james/ros2_ws/src/ardupilot/Tools/autotest:/usr/lib/ccache:/home/james/Iceberg/ros2_ws/src/ardupilot/Tools/autotest:/opt/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/james/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/james/.vscode/extensions/ms-python.debugpy-2025.0.1-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/pop-os:@/tmp/.ICE-unix/2334,unix/pop-os:/tmp/.ICE-unix/2334', 'INVOCATION_ID': 'f92effa192c4493eb26cf9c8b1c1740c', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'pop', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-bc3eee1de2.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/james/Documents/dev/NavLogger/install/NavLogger:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'pop:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'pop', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/james/Documents/dev/NavLogger/build/NavLogger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-pop:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/pop:/usr/share/gnome:/home/james/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/james/Documents/dev/NavLogger/build/NavLogger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages:/home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.102117] (-) TimerEvent: {}
+[1.202356] (-) TimerEvent: {}
+[1.302633] (-) TimerEvent: {}
+[1.402932] (-) TimerEvent: {}
+[1.403515] (NavLogger) StdoutLine: {'line': b'running egg_info\n'}
+[1.403899] (NavLogger) StdoutLine: {'line': b'creating build/NavLogger/NavLogger.egg-info\n'}
+[1.428659] (NavLogger) StdoutLine: {'line': b'writing build/NavLogger/NavLogger.egg-info/PKG-INFO\n'}
+[1.429195] (NavLogger) StdoutLine: {'line': b'writing dependency_links to build/NavLogger/NavLogger.egg-info/dependency_links.txt\n'}
+[1.429439] (NavLogger) StdoutLine: {'line': b'writing entry points to build/NavLogger/NavLogger.egg-info/entry_points.txt\n'}
+[1.429630] (NavLogger) StdoutLine: {'line': b'writing requirements to build/NavLogger/NavLogger.egg-info/requires.txt\n'}
+[1.429743] (NavLogger) StdoutLine: {'line': b'writing top-level names to build/NavLogger/NavLogger.egg-info/top_level.txt\n'}
+[1.429879] (NavLogger) StdoutLine: {'line': b"writing manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'\n"}
+[1.478596] (NavLogger) StdoutLine: {'line': b"reading manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'\n"}
+[1.478798] (NavLogger) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.479403] (NavLogger) StdoutLine: {'line': b"writing manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'\n"}
+[1.479621] (NavLogger) StdoutLine: {'line': b'running build\n'}
+[1.479768] (NavLogger) StdoutLine: {'line': b'running build_py\n'}
+[1.479898] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/build/NavLogger/build\n'}
+[1.480048] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib\n'}
+[1.480161] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger\n'}
+[1.480274] (NavLogger) StdoutLine: {'line': b'copying NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger\n'}
+[1.480390] (NavLogger) StdoutLine: {'line': b'copying NavLogger/__init__.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger\n'}
+[1.480610] (NavLogger) StdoutLine: {'line': b'running install\n'}
+[1.486255] (NavLogger) StdoutLine: {'line': b'running install_lib\n'}
+[1.503006] (-) TimerEvent: {}
+[1.510727] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger\n'}
+[1.510927] (NavLogger) StdoutLine: {'line': b'copying /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger\n'}
+[1.511087] (NavLogger) StdoutLine: {'line': b'copying /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger/__init__.py -> /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger\n'}
+[1.511626] (NavLogger) StdoutLine: {'line': b'byte-compiling /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger/logger_node.py to logger_node.cpython-310.pyc\n'}
+[1.512384] (NavLogger) StdoutLine: {'line': b'byte-compiling /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger/__init__.py to __init__.cpython-310.pyc\n'}
+[1.512621] (NavLogger) StdoutLine: {'line': b'running install_data\n'}
+[1.512752] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index\n'}
+[1.512871] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index\n'}
+[1.512990] (NavLogger) StdoutLine: {'line': b'creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index/packages\n'}
+[1.513114] (NavLogger) StdoutLine: {'line': b'copying resource/NavLogger -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index/packages\n'}
+[1.513318] (NavLogger) StdoutLine: {'line': b'copying package.xml -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/NavLogger\n'}
+[1.513460] (NavLogger) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.539618] (NavLogger) StdoutLine: {'line': b'Copying build/NavLogger/NavLogger.egg-info to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger-0.0.0-py3.10.egg-info\n'}
+[1.540725] (NavLogger) StdoutLine: {'line': b'running install_scripts\n'}
+[1.603064] (-) TimerEvent: {}
+[1.703312] (-) TimerEvent: {}
+[1.771418] (NavLogger) StdoutLine: {'line': b'Installing logger_node script to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/NavLogger\n'}
+[1.771887] (NavLogger) StdoutLine: {'line': b"writing list of installed files to '/home/james/Documents/dev/NavLogger/build/NavLogger/install.log'\n"}
+[1.802183] (NavLogger) CommandEnded: {'returncode': 0}
+[1.803437] (-) TimerEvent: {}
+[1.813328] (NavLogger) JobEnded: {'identifier': 'NavLogger', 'rc': 0}
+[1.814040] (-) EventReactorShutdown: {}

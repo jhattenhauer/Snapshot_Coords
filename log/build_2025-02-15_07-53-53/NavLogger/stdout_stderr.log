@@ -1,0 +1,36 @@
+running egg_info
+creating build/NavLogger/NavLogger.egg-info
+writing build/NavLogger/NavLogger.egg-info/PKG-INFO
+writing dependency_links to build/NavLogger/NavLogger.egg-info/dependency_links.txt
+writing entry points to build/NavLogger/NavLogger.egg-info/entry_points.txt
+writing requirements to build/NavLogger/NavLogger.egg-info/requires.txt
+writing top-level names to build/NavLogger/NavLogger.egg-info/top_level.txt
+writing manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'
+reading manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/NavLogger/NavLogger.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/james/Documents/dev/NavLogger/build/NavLogger/build
+creating /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib
+creating /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger
+copying NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger
+copying NavLogger/__init__.py -> /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger
+running install
+running install_lib
+creating /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger
+copying /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger/logger_node.py -> /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger
+copying /home/james/Documents/dev/NavLogger/build/NavLogger/build/lib/NavLogger/__init__.py -> /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger
+byte-compiling /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger/logger_node.py to logger_node.cpython-310.pyc
+byte-compiling /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index
+creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index
+creating /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index/packages
+copying resource/NavLogger -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/ament_index/resource_index/packages
+copying package.xml -> /home/james/Documents/dev/NavLogger/install/NavLogger/share/NavLogger
+running install_egg_info
+Copying build/NavLogger/NavLogger.egg-info to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/python3.10/site-packages/NavLogger-0.0.0-py3.10.egg-info
+running install_scripts
+Installing logger_node script to /home/james/Documents/dev/NavLogger/install/NavLogger/lib/NavLogger
+writing list of installed files to '/home/james/Documents/dev/NavLogger/build/NavLogger/install.log'

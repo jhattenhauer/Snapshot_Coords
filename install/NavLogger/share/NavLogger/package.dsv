@@ -1,0 +1,6 @@
+source;share/NavLogger/hook/pythonpath.ps1
+source;share/NavLogger/hook/pythonpath.dsv
+source;share/NavLogger/hook/pythonpath.sh
+source;share/NavLogger/hook/ament_prefix_path.ps1
+source;share/NavLogger/hook/ament_prefix_path.dsv
+source;share/NavLogger/hook/ament_prefix_path.sh
